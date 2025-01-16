@@ -1,0 +1,2184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* variable */
+:root{
+    --FONT: "Dancing Script", cursive;
+    --FONTSIZE: 1.7em;
+    --BGCOLOR:orangered ;
+    --COLOR:snow;
+}
+.container{
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.container .page1{
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    /* animation: loop infinite linear 5s;
+    animation-play-state: running; */
+    
+    /* background-color: black; */
+}
+
+/* video{
+    object-fit: cover;
+    width: 100%;
+    height: 130vh;
+    position: absolute;
+} */
+.container .page1 header nav{
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+}
+.container .page1 header nav .logo{
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 43%;
+}
+.container .page1 header nav .logo a{
+text-decoration: none;
+font-size: 2.3em;
+font-family:var(--FONT);
+color: var(--COLOR);
+}
+.container .page1 header nav ul{
+    width: 40%;
+    position: absolute;
+    margin-top:35px ;
+    margin-left: 55%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.container .page1 header nav ul li{
+   list-style: none;
+}
+.container .page1 header nav ul li a{
+    color: var(--COLOR);
+    font-size:var(--FONTSIZE);
+    font-family:var(--FONT);
+    text-decoration: none;
+}
+.container .page1 header nav ul li a:hover{
+    color: var(--BGCOLOR);
+}
+.container .page1 header nav .book{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 5%;
+    width: 20%;
+}
+.container .page1 header nav .book a{
+    text-decoration: none;
+    border: 2px solid;
+    padding: 10px;
+    font-size:var(--FONTSIZE);
+    font-family:var(--FONT);
+    color: var(--COLOR);
+    }
+.container .page1 header nav .book a:hover{
+    background-color:var(--BGCOLOR) ;
+}
+
+.container .page1 header nav .search{
+    position: absolute;
+    margin-top: 32px;
+    margin-left: 15%;
+    
+}
+.container .page1 header nav .search input{
+    padding:10px;
+    background: transparent;
+    outline: none;
+    color: snow;
+    border: none;
+    border-bottom: 2px solid snow;
+}
+.container .page1 header nav  a i{
+ color:snow;
+ position: absolute;
+ font-size: 18px;
+ margin-top: 42px;
+ margin-left: 25%;
+}
+.container .page1 header nav .line1{
+    width: 30px;
+    position: absolute;
+    margin-top: 3%;
+    right: 3%;
+    border: 2px solid;
+    color: snow;
+}
+.container .page1 header nav .line2{
+    width: 30px;
+    position: absolute;
+    margin-top: 3.7%;
+    right: 3%;
+    border: 2px solid;
+    color: snow;
+}
+
+.container .page1 main .paragraph p{
+    font-size: 1.5em;
+    position: absolute;
+    margin-top: 8%;
+    color: var(--COLOR);
+    margin-left: 80%;
+    font-family: var(--FONT);
+}
+.container .page1 main .paragraph h1{
+    font-size: 100px;
+    margin-top: 10%;
+    position: absolute;
+    color: var(--COLOR);
+    margin-left: 50%;
+    font-family: var(--FONT);
+    width: 50%;
+}
+.container .page1 main .paragraph1  span{
+    font-size: 15rem;
+    position: absolute;
+    color: sandybrown;
+    margin-top:13%;
+    margin-left: 80%;
+}
+.container .page1 main .circle  a i{
+ position: absolute;
+ color: var(--COLOR);
+ font-size: 3rem;
+ margin-top:30%;
+ margin-left: 18%;
+}
+.container .page1 main .circle a i:hover{
+    color: var(--BGCOLOR);
+} 
+.container .page1 header nav .m img{
+    position: absolute;
+ width: 8%;
+ height: 8%;
+ margin-top: 20px;
+ margin-left: 36%;
+}
+.container .page1 footer .box{
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    bottom: -30%;
+    background-color: var(--BGCOLOR);
+}
+.container .page1 footer .box p{
+    font-size: var(--FONTSIZE);
+    font-family: var(--FONT);
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 8%;
+
+}
+.container .page1 p{
+    position: absolute;
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 7%;
+    text-align: right;
+    font-size: 1.5rem;
+}
+.container .page1 img{
+    width: 10%;
+    height: 10%px;
+    margin-top: 8%;
+    margin-left: 18%;
+    position: absolute;
+}
+.container .page1  h1{
+    width: 45%;
+    font-size: 6rem;
+    font-family: var(--FONT);
+    position: absolute;
+    margin-top: 5%;
+    text-align: right;
+    margin-left: 46%;
+}
+.container .page1  h1 span{
+    color: goldenrod;
+}
+.container .page1 h5{
+    text-align: right;
+    font-size: 2rem;
+    position: absolute;
+    font-family: var(--FONT);
+    margin-top: 3%;
+    margin-left: 84%;
+}
+
+
+
+
+/* page2 */
+.container .page2{
+    width: 100%;
+    height: 130vh;
+    position: relative;
+    background-color: seashell;
+    font-family: var(--FONT);
+}
+.container .page2  .one{
+    text-align: right;
+}
+.container .page2  .one h4{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 85%;
+    font-size: 1.3em;
+    color: maroon;
+}
+.container .page2 .one h4 span{
+    font-size: 2rem;
+    color: maroon;
+}
+.container .page2 .one h1{
+    position: absolute;
+    margin-top: 5%;
+    font-size: 4rem;
+    width: 45%;
+    margin-left: 50%;
+}
+.container .page2 .one h1 span{
+    color: maroon;
+}
+.container .page2 .one img{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: -90%;
+}
+
+.container .page2  .qw{
+ width: 40%;
+ height: 50vh;
+ border: 2px solid;
+ position: absolute;
+ margin-top: 18%;
+ margin-left: 5%;
+ text-align: right;
+ font-weight: 500;
+}
+
+.container .page2  .qw p{
+    font-size: 1.3em;
+    position: absolute;
+    width: 80%;
+    right: 10%;
+    margin-top: 5%;
+}
+.container .page2  .qw1{
+    width: 40%;
+    height: 50vh;
+    margin-top: 18%;
+    margin-left: 55%;
+    position: absolute;
+    background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/about/about-4/thumb.jpg);
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.container .page2 .c{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    background-color: maroon;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top:25% ;
+    margin-left: 50%;
+    border-radius: 50%;
+    color: snow;
+    z-index: 1;
+
+}
+.container .page2 .c p{
+    margin-top: 7%;
+}
+
+.container .fl1{
+    position: absolute;
+    width: 90%;
+    height: 20vh;
+    border: 1px solid gray;
+    margin-left: 5%;
+    margin-top: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.container .fl1 .f1{
+  width: 25%;
+  height: 20vh;
+  border-right: 1px solid gray;
+}
+.container .fl1 .f1 h4{
+  font-size: 4.6rem;
+}
+.container .fl1 .f1 p{
+   font-size: 2rem;
+}
+.container .fl1 .f2{
+    width: 25%;
+    height: 20vh;
+    border-right: 1px solid gray;  
+}
+.container .fl1 .f2 h4{
+    font-size: 4.6rem;
+  }
+  .container .fl1 .f2 p{
+     font-size: 2rem;
+  }
+.container .fl1 .f3{
+    width: 25%;
+    height: 20vh;
+    border-right: 1px solid gray;  
+}
+.container .fl1 .f3 h4{
+    font-size: 4.6rem;
+  }
+  .container .fl1 .f3 p{
+     font-size: 2rem;
+  }
+.container .fl1 .f4{
+    width: 25%;
+    height: 20vh; 
+}
+.container .fl1 .f4 h4{
+    font-size: 4.6rem;
+  }
+  .container .fl1 .f4 p{
+     font-size: 2rem;
+  }
+
+
+  /* page3 */
+  .container .page3{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    font-family: var(--FONT);
+  }
+  .container .page3 .final{
+    width: 90%;
+    height: 90vh;
+    border: 1px solid gray;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    display: flex;
+  }
+   
+  .container .page3 .final .g1{
+   width: 60%;
+   height: 90vh;
+   border-right: 1px solid gray ;
+   text-align: right;
+  }
+
+  .container .page3 .final .g1 h4{
+    font-size: 1.5em;
+    margin-top: 4%;
+    margin-right: 15%;
+    color: maroon;
+  }
+  .container .page3 .final .g1 h1{
+    font-size: 3em;
+    margin-top: 3%;
+    width: 50%;
+    margin-left: 35%;
+  }
+  .container .page3 .final .g1 p{
+    font-size: 1.5em;
+    width: 40%;
+    margin-top: 3%;
+    margin-left: 45%;
+    line-height: 150%;
+  }
+  .container .page3 .final .g1 .li1{
+    font-size: 1.3em;
+    margin-top: 3%;
+    margin-right: 20%;
+    list-style: none;
+    line-height: 200%;
+  }
+  .container .page3 .final .g1 .li1 span img{
+            width:20px ;
+            height: 20px;
+            margin-top: 0.7%;
+            position: absolute;
+  }
+  .container .page3 .final .g1 .za a {
+    text-align: center;
+    font-size: 1.3em;
+    background-color: orange;
+    position: absolute;
+    margin-top: 3%;
+    padding: 15px;
+    width: 20%;
+    left:30% ;
+    text-decoration: none;
+    color: black;
+  }
+  .container .page3 .final .g1 .za a{
+    
+  }
+  .container .page3 .final .g1 .za a:hover{
+    background-color: var(--BGCOLOR);
+  }
+  .container .page3 .final .g2{
+    width: 40%;
+    height: 90vh;
+    /* position: absolute; */
+    
+  }
+  .container .page3 .final .g2 img{
+    width: 100%;
+    height: 90vh;
+  }
+
+
+
+
+
+
+
+
+
+
+    /* footer */
+
+    .container .page11 {
+        width: 100%;
+        height: 120vh;
+        position: relative;
+        font-family: var(--FONT);
+    }
+    .container .page11 .flex12{
+        width: 100%;
+        position: absolute;
+        margin-left: 0%;
+        height: 30vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 4%;
+    
+    }
+    .container .page11 .flex12 .v1{
+        width: 15.5%;
+        height: 30vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/06.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v1:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v2{
+        width: 15.5%;
+        height: 30vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/05.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* .container .page11 .flex12 .v2:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v3{
+        width: 15.5%;
+        height: 30vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/04.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* .container .page11 .flex12 .v3:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v4{
+        width: 15.5%;
+        height: 30vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/03.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v4:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v5{
+        width: 15.5%;
+        height: 30vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/02.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v5:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v6{
+        width: 15.5%;
+        height: 30vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/01.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v6:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .footer{
+        width: 100%;
+        height: 80vh;
+        position: absolute;
+        background-color: rgba(11, 2, 13, 0.871);
+        margin-top: 20%;
+        border: 2px solid;
+    }
+    /* b1 */
+    .container .page11 .footer .b1{
+        width: 30%;
+        height: 40vh;
+        position: absolute;
+        margin-top:8%;
+        text-align: right;
+        font-family: var(--FONT);
+    }
+    .container .page11 .footer .b1 h4{
+         font-size: 2rem;
+         width: 70%;
+         margin-left: 30%;
+         color: snow;
+    }
+    .container .page11 .footer .b1 p{
+        font-size: 1.3rem;
+        margin-top: 2%;
+        color: gray;
+    }
+    .container .page11 .footer .b1 input{
+        padding: 15px;
+        width: 85%;
+        font-size: 1.5rem;
+        margin-top: 5%;
+    }
+    .container .page11 .footer .b1 a{
+        position: absolute;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 1.5rem;
+        top: 47.7%;
+        background-color: maroon;
+        color: snow;
+        left: 75.5%;
+        width: 23%;
+        text-align: center;
+    }
+    .container .page11 .footer .b1 a:hover{
+        background-color: orangered;
+    }
+    .container .page11 .footer .flex13  {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 30%;
+        color: gray;
+        margin-top: 5%;
+        margin-left: 70%;
+        font-size: 1.5rem;
+    }
+/* b2 */
+     .container .page11 .footer .b2{
+        width: 35%;
+        height: 50vh;
+        position: absolute;
+
+        margin-top: 8%;
+        margin-left: 34%;
+     }
+
+     .container .page11 .footer .b2 h2{
+        font-size: 2rem;
+        color: snow;
+        margin-top: 2%;
+        margin-left: 33%;
+     }
+
+     .container .page11 .footer .b2 ul{
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 80%;
+        height: 70%;
+    margin-top: 3%;
+    margin-left: 0%;
+    font-size: 1.3rem;
+    text-align: right;
+    line-height: 200%;
+    list-style: none;
+     }
+     .container .page11 .footer .b2 ul li a{
+        text-decoration: none;
+        color: gray;
+     }
+     .container .page11 .footer .b2 ul li a:hover{
+        color: orangered;
+     }
+
+
+
+
+    /* b3 */
+
+    .container .page11 .footer .b3{
+        position: absolute;
+        width: 20%;
+        height: 40vh;
+        margin-top: 8%;
+        margin-left: 70%;
+        font-family: var(--FONT);
+        text-align: right;
+    }
+    .container .page11 .footer .b3 h3{
+        font-size: 3rem;
+
+    }
+    .container .page11 .footer .b3 h3 a{
+        text-decoration: none;
+        color: snow;
+    }
+    .container .page11 .footer .b3 h3 a:hover{
+        color: orangered;
+    }
+    .container .page11 .footer .b3 p{
+        font-size: 1.2rem;
+        margin-top: 5%;
+        
+    }
+    .container .page11 .footer .b3 p a{
+        text-decoration: none;
+        color: gray;
+    }
+    .container .page11 .footer .b3 p a:hover{
+        color: orangered;
+    }
+    .container .page11 .footer .b3 h2{
+        font-size: 1.3rem;
+        margin-top: 5%;
+        color: snow;
+    }
+
+    .container .page11 .footer .b3 .sa1{
+        font-size: 2rem;
+        margin-top: 5%;
+        
+    }
+    .container .page11 .footer .b3 .sa1 a{
+        text-decoration: none;
+        color: orange;
+    }
+    .container .page11 .footer .b3 .sa1 a:hover{
+        color: orangered;
+    }
+    .container .page11 .footer .b3 .sa2{
+        font-size: 1.5rem;
+        margin-top: 5%;
+        
+    }
+    .container .page11 .footer .b3 .sa2 a{
+        text-decoration: none;
+        color: snow;
+    }
+    .container .page11 .footer .b3 .sa2 a:hover{
+        color: orangered;
+    }
+
+/* last */
+.container .page11 .footer .last{
+    width: 85%;
+    height: 10vh;
+    position: absolute;
+    border-top: 2px solid;
+    margin-left: 5%;
+    bottom: 0;
+    color: gray;
+}
+.container .page11 .footer .last a{
+    text-decoration: none;
+    color: snow;
+}
+.container .page11 .footer .last a:hover{
+    color: orangered;
+}
+.container .page11 .footer .last  p{
+    margin-top: 2%;
+    margin-left: 70%;
+    position: absolute;
+}
+
+.container .page11 .footer .last h4{
+    margin-top: 2%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+/* TAB */
+
+@media all and (max-width:996px){
+
+    /* page1 */
+
+
+    .container{
+        width: 100%;
+    }
+
+    .container .page1{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        /* animation: loop infinite linear 5s;
+        animation-play-state: running; */
+        
+        /* background-color: black; */
+    }
+    /* video{
+        object-fit: cover;
+        width: 100%;
+        height: 75vh;
+        position: absolute;
+    } */
+    .container .page1 header nav{
+        width: 100%;
+        height: 15vh;
+        /* background-color: aqua; */
+        /* position: fixed;
+        top: 0%; */
+        z-index: 1;
+        position: absolute;
+        border-bottom: 2px solid gray;
+    }
+    .container .page1 header nav .logo{
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .container .page1 header nav .logo a{
+    text-decoration: none;
+    font-size: 4em;
+    font-family:var(--FONT);
+    color: var(--COLOR);
+    }
+    .container .page1 header nav ul{
+        width: 40%;
+        position: absolute;
+        margin-top:35px ;
+        margin-left: 55%;
+        display: flex;
+        justify-content: space-evenly;
+        display: none;
+    }
+    .container .page1 header nav ul li{
+       list-style: none;
+    }
+    .container .page1 header nav ul li a{
+        color: var(--COLOR);
+        font-size:var(--FONTSIZE);
+        font-family:var(--FONT);
+        text-decoration: none;
+    }
+    .container .page1 header nav ul li a:hover{
+        color: var(--BGCOLOR);
+    }
+    .container .page1 header nav .book{
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 5%;
+        width: 40%;
+        display: none;
+    }
+    .container .page1 header nav .book a{
+        text-decoration: none;
+        border: 2px solid;
+        padding: 3px;
+        font-size:1.3em;
+        font-family:var(--FONT);
+        color: var(--COLOR);
+        }
+    .container .page1 header nav .book a:hover{
+        background-color:var(--BGCOLOR) ;
+    }
+    
+    .container .page1 header nav .search{
+        position: absolute;
+        margin-top: 32px;
+        margin-left: 15%;
+        display: none;
+    }
+    .container .page1 header nav .search input{
+        padding:10px;
+        background-color: seashell;
+    }
+    .container .page1 header nav  a i{
+     color:black;
+     position: absolute;
+     font-size: 18px;
+     margin-top: 42px;
+     margin-left: 25%;
+     display: none;
+    }
+    .container .page1 header nav .line1{
+        width: 40px;
+        position: absolute;
+        margin-top: 9%;
+        right: 5%;
+        border: 2px solid;
+        color: snow;
+    }
+    .container .page1 header nav .line2{
+        width: 40px;
+        position: absolute;
+        margin-top: 11%;
+        right: 5%;
+        border: 2px solid;
+        color: snow;
+    }
+    .container .page1 header nav .m img{
+        position: absolute;
+     width: 10%;
+     height: 10%;
+     margin-top: 10%;
+     margin-left: 1%;
+
+    }
+
+    
+.container .page1 p{
+    position: absolute;
+    width: 90%;
+    top: 70%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 2rem;
+}
+.container .page1 img{
+    width: 17%;
+    height: 15%;
+    top: 60%;
+    left: 25%;
+    position: absolute;
+}
+.container .page1  h1{
+    width: 90%;
+    font-size: 6rem;
+    font-family: var(--FONT);
+    position: absolute;
+    margin-top: 40%;
+    text-align: center;
+    margin-left: 5%;
+}
+.container .page1  h1 span{
+    color: goldenrod;
+}
+.container .page1 h5{
+    text-align: center;
+    font-size: 3rem;
+    position: absolute;
+    font-family: var(--FONT);
+    top: 20%;
+    left: -43%;
+}
+
+
+
+/* page2 */
+.container .page2{
+    width: 100%;
+    height: 165vh;
+    position: relative;
+    background-color: seashell;
+    font-family: var(--FONT);
+}
+/* .container .page2  .one{
+    text-align: right;
+} */
+.container .page2  .one h4{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 45%;
+    font-size: 2em;
+    color: maroon;
+}
+.container .page2 .one h4 span{
+    font-size: 2rem;
+    color: maroon;
+}
+.container .page2 .one h1{
+    position: absolute;
+    top: 3%;
+    font-size: 4rem;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+}
+.container .page2 .one h1 span{
+    color: maroon;
+}
+.container .page2 .one img{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: -10%;
+}
+
+.container .page2  .qw{
+ width: 90%;
+ height: 50vh;
+ border: 2px solid;
+ position: absolute;
+ top: 44%;
+ margin-left: 5%;
+ text-align: right;
+ font-weight: 500;
+}
+
+.container .page2  .qw p{
+    font-size: 2em;
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    text-align: center;
+    margin-top: 5%;
+}
+.container .page2  .qw1{
+    width: 90%;
+    height: 50vh;
+    top: 12%;
+    margin-left: 5%;
+    position: absolute;
+    background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/about/about-4/thumb.jpg);
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.container .page2 .c{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    background-color: maroon;
+    font-size: 2rem;
+    text-align: center;
+    margin-top:35% ;
+    left: -45%;
+    border-radius: 50%;
+    color: snow;
+    z-index: 1;
+
+}
+.container .page2 .c p{
+    margin-top: 7%;
+}
+
+.container .fl1{
+    position: absolute;
+    width: 90%;
+    height: 20vh;
+    border: 1px solid gray;
+    margin-left: 5%;
+    top: 63%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.container .fl1 .f1{
+  width: 25%;
+  height: 20vh;
+  border-right: 1px solid gray;
+}
+.container .fl1 .f1 h4{
+  font-size: 4.6rem;
+}
+.container .fl1 .f1 p{
+   font-size: 2rem;
+}
+.container .fl1 .f2{
+    width: 25%;
+    height: 20vh;
+    border-right: 1px solid gray;  
+}
+.container .fl1 .f2 h4{
+    font-size: 4.6rem;
+  }
+  .container .fl1 .f2 p{
+     font-size: 2rem;
+  }
+.container .fl1 .f3{
+    width: 25%;
+    height: 20vh;
+    border-right: 1px solid gray;  
+}
+.container .fl1 .f3 h4{
+    font-size: 4.6rem;
+  }
+  .container .fl1 .f3 p{
+     font-size: 2rem;
+  }
+.container .fl1 .f4{
+    width: 25%;
+    height: 20vh; 
+}
+.container .fl1 .f4 h4{
+    font-size: 4.6rem;
+  }
+  .container .fl1 .f4 p{
+     font-size: 2rem;
+  }
+
+
+  /* page3 */
+  .container .page3{
+    width: 100%;
+    height: 125vh;
+    position: relative;
+    font-family: var(--FONT);
+  }
+  .container .page3 .final{
+    width: 90%;
+    height: 120vh;
+    border: 1px solid gray;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+  }
+   
+  .container .page3 .final .g1{
+   width: 100%;
+   height: 60vh;
+   border-right: 1px solid gray ;
+   position: absolute;
+   top: 50%;
+  }
+
+  .container .page3 .final .g1 h4{
+    font-size: 2em;
+    margin-top: 5%;
+    right: 20%;
+    position: absolute;
+    color: maroon;
+  }
+  .container .page3 .final .g1 h1{
+    font-size: 4em;
+    margin-top: 13%;
+    width: 90%;
+    right: 5%;
+   text-align: center;
+   position: absolute;
+  }
+  .container .page3 .final .g1 p{
+    font-size: 2em;
+    width: 90%;
+    position: absolute;
+    top: 40%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 150%;
+  }
+  .container .page3 .final .g1 .li1{
+    font-size: 1.7em;
+    margin-top: 60%;
+    right: 40%;
+    list-style: none;
+    position: absolute;
+    line-height: 200%;
+  }
+  .container .page3 .final .g1 .li1 span img{
+            width:20px ;
+            height: 20px;
+            margin-top: 9%;
+            position: absolute;
+  }
+  .container .page3 .final .g1 .za a {
+    text-align: center;
+    font-size: 1.7em;
+    background-color: orange;
+    position: absolute;
+    margin-top: 65%;
+    padding: 15px;
+    width: 40%;
+    left:52% ;
+    text-decoration: none;
+    color: black;
+  }
+  .container .page3 .final .g1 .za a:hover{
+    background-color: var(--BGCOLOR);
+  }
+  .container .page3 .final .g2{
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    
+  }
+  .container .page3 .final .g2 img{
+    width: 100%;
+    height: 60vh;
+
+  }
+
+
+
+
+
+
+
+
+    
+    /* footer */
+
+    .container .page11 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        font-family: var(--FONT);
+    }
+    .container .page11 .flex12{
+        width: 100%;
+        position: absolute;
+        margin-left: 0%;
+        height: 30vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    
+    }
+    .container .page11 .flex12 .v1{
+        width: 24%;
+        height: 20vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/06.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v1:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v2{
+        width: 24%;
+        height: 20vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/05.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* .container .page11 .flex12 .v2:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v3{
+        width: 24%;
+        height: 20vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/04.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* .container .page11 .flex12 .v3:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v4{
+        width: 24%;
+        height: 20vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/03.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v4:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v5{
+        width: 24%;
+        height: 30vh;
+        display: none;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/02.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v5:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v6{
+        width: 15.5%;
+        height: 30vh;
+        display: none;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/01.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v6:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .footer{
+        width: 100%;
+        height: 80vh;
+        position: absolute;
+        background-color: rgba(11, 2, 13, 0.871);
+        margin-top: 34%;
+        border: 2px solid;
+    }
+    /* b1 */
+    .container .page11 .footer .b1{
+        width: 50%;
+        height: 40vh;
+        position: absolute;
+        margin-top:50%;
+        margin-left: 40%;
+        text-align: right;
+        font-family: var(--FONT);
+    }
+    .container .page11 .footer .b1 h4{
+         font-size: 2.2rem;
+         width: 75%;
+         margin-left: 25%;
+         color: snow;
+    }
+    .container .page11 .footer .b1 p{
+        font-size: 1.7rem;
+        margin-top: 2%;
+        color: gray;
+    }
+    .container .page11 .footer .b1 input{
+        padding: 15px;
+        width: 90%;
+        font-size: 1.7rem;
+        margin-top: 5%;
+    }
+    .container .page11 .footer .b1 a{
+        position: absolute;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 1.7rem;
+        top: 44.2%;
+        background-color: maroon;
+        color: snow;
+        left: 70.6%;
+        width: 28%;
+        text-align: center;
+    }
+    .container .page11 .footer .b1 a:hover{
+        background-color: orangered;
+    }
+    .container .page11 .footer .flex13  {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 35%;
+        color: gray;
+        margin-top: 5%;
+        margin-left: 65%;
+        font-size: 1.7rem;
+    }
+/* b2 */
+     .container .page11 .footer .b2{
+        width: 40%;
+        height: 50vh;
+        position: absolute;
+        margin-top: 8%;
+        margin-left: 5%;
+     }
+
+     .container .page11 .footer .b2 h2{
+        font-size: 2rem;
+        color: snow;
+        margin-top: 2%;
+        margin-left: 33%;
+     }
+
+     .container .page11 .footer .b2 ul{
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        height: 60%;
+    margin-top: 3%;
+    margin-left: 0%;
+    font-size: 1.5rem;
+    text-align: right;
+    line-height: 200%;
+    list-style: none;
+     }
+     .container .page11 .footer .b2 ul li a{
+        text-decoration: none;
+        color: gray;
+     }
+     .container .page11 .footer .b2 ul li a:hover{
+        color: orangered;
+     }
+
+
+
+
+    /* b3 */
+
+    .container .page11 .footer .b3{
+        position: absolute;
+        width: 40%;
+        height: 40vh;
+        margin-top: 8%;
+        margin-left: 50%;
+        font-family: var(--FONT);
+        text-align: right;
+    }
+    .container .page11 .footer .b3 h3{
+        font-size: 3rem;
+
+    }
+    .container .page11 .footer .b3 h3 a{
+        text-decoration: none;
+        color: snow;
+    }
+    .container .page11 .footer .b3 h3 a:hover{
+        color: orangered;
+    }
+    .container .page11 .footer .b3 p{
+        font-size: 1.3rem;
+        margin-top: 5%;
+        
+    }
+    .container .page11 .footer .b3 p a{
+        text-decoration: none;
+        color: gray;
+    }
+    .container .page11 .footer .b3 p a:hover{
+        color: orangered;
+    }
+    .container .page11 .footer .b3 h2{
+        font-size: 1.4rem;
+        margin-top: 5%;
+        color: snow;
+    }
+
+    .container .page11 .footer .b3 .sa1{
+        font-size: 2.1rem;
+        margin-top: 5%;
+        
+    }
+    .container .page11 .footer .b3 .sa1 a{
+        text-decoration: none;
+        color: orange;
+    }
+    .container .page11 .footer .b3 .sa1 a:hover{
+        color: orangered;
+    }
+    .container .page11 .footer .b3 .sa2{
+        font-size: 1.6rem;
+        margin-top: 5%;
+        
+    }
+    .container .page11 .footer .b3 .sa2 a{
+        text-decoration: none;
+        color: snow;
+    }
+    .container .page11 .footer .b3 .sa2 a:hover{
+        color: orangered;
+    }
+
+/* last */
+.container .page11 .footer .last{
+    width: 85%;
+    height: 10vh;
+    position: absolute;
+    border-top: 2px solid;
+    margin-left: 5%;
+    bottom: 0;
+    color: gray;
+}
+.container .page11 .footer .last a{
+    text-decoration: none;
+    color: snow;
+}
+.container .page11 .footer .last a:hover{
+    color: orangered;
+}
+.container .page11 .footer .last  p{
+    margin-top: 2%;
+    margin-left: 50%;
+    font-size: 1.3rem;
+    position: absolute;
+}
+
+.container .page11 .footer .last h4{
+    margin-top: 2%;
+    font-size: 1.4rem;
+    margin-left: 7%;
+    position: absolute;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
+
+@media all and (max-width:576px){
+
+    /* page1 */
+
+
+    .container{
+        width: 100%;
+    }
+
+    .container .page1{
+        width: 100%;
+        height: 100vh;
+        /* animation: loop infinite linear 5s;
+        animation-play-state: running; */
+        
+        /* background-color: black; */
+    }
+    video{
+        object-fit: cover;
+        width: 100%;
+        height: 75vh;
+        position: absolute;
+
+    }
+    .container .page1 header nav{
+        width: 100%;
+        height: 15vh;
+        /* background-color: aqua; */
+        /* position: fixed;
+        top: 0%; */
+        z-index: 1;
+        position: absolute;
+        border-bottom: 2px solid gray;
+    }
+    .container .page1 header nav .logo{
+        position: absolute;
+        margin-top: 8%;
+        margin-left: 10%;
+    }
+    .container .page1 header nav .logo a{
+    text-decoration: none;
+    font-size: 2em;
+    font-family:var(--FONT);
+    color: var(--COLOR);
+    }
+    .container .page1 header nav ul{
+        width: 40%;
+        position: absolute;
+        margin-top:35px ;
+        margin-left: 55%;
+        display: flex;
+        justify-content: space-evenly;
+        display: none;
+    }
+    .container .page1 header nav ul li{
+       list-style: none;
+    }
+    .container .page1 header nav ul li a{
+        color: var(--COLOR);
+        font-size:var(--FONTSIZE);
+        font-family:var(--FONT);
+        text-decoration: none;
+    }
+    .container .page1 header nav ul li a:hover{
+        color: var(--BGCOLOR);
+    }
+    .container .page1 header nav .book{
+        position: absolute;
+        margin-top: 35px;
+        margin-left: 5%;
+        width: 40%;
+        display: none;
+    }
+    .container .page1 header nav .book a{
+        text-decoration: none;
+        border: 2px solid;
+        padding: 3px;
+        font-size:1.3em;
+        font-family:var(--FONT);
+        color: var(--COLOR);
+        }
+    .container .page1 header nav .book a:hover{
+        background-color:var(--BGCOLOR) ;
+    }
+    
+    .container .page1 header nav .search{
+        position: absolute;
+        margin-top: 32px;
+        margin-left: 15%;
+        display: none;
+    }
+    .container .page1 header nav .search input{
+        padding:10px;
+        background-color: seashell;
+    }
+    .container .page1 header nav  a i{
+     color:black;
+     position: absolute;
+     font-size: 18px;
+     margin-top: 42px;
+     margin-left: 25%;
+     display: none;
+    }
+    .container .page1 header nav .line1{
+        width: 30px;
+        position: absolute;
+        margin-top: 12%;
+        right: 5%;
+        border: 2px solid;
+        color: snow;
+    }
+    .container .page1 header nav .line2{
+        width: 30px;
+        position: absolute;
+        margin-top: 15%;
+        right: 5%;
+        border: 2px solid;
+        color: snow;
+    }
+
+   
+.container .page1 p{
+    position: absolute;
+    width: 90%;
+    top: 65%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.container .page1 img{
+    width: 30%;
+    height: 17%;
+    top: 50%;
+    left: 18%;
+    position: absolute;
+}
+.container .page1  h1{
+    width: 90%;
+    font-size: 3rem;
+    font-family: var(--FONT);
+    position: absolute;
+    margin-top: 47%;
+    text-align: center;
+    margin-left: 5%;
+}
+.container .page1  h1 span{
+    color: goldenrod;
+}
+.container .page1 h5{
+    text-align: center;
+    font-size: 2rem;
+    position: absolute;
+    font-family: var(--FONT);
+    top: 17%;
+    left: -45%;
+}
+
+
+
+/* page2 */
+.container .page2{
+    width: 100%;
+    height: 163vh;
+    position: relative;
+    background-color: seashell;
+    font-family: var(--FONT);
+}
+/* .container .page2  .one{
+    text-align: right;
+} */
+.container .page2  .one h4{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 40%;
+    font-size: 1.5em;
+    color: maroon;
+}
+.container .page2 .one h4 span{
+    font-size: 2rem;
+    color: maroon;
+}
+.container .page2 .one h1{
+    position: absolute;
+    top: 4%;
+    font-size: 2rem;
+    width: 90%;
+    text-align: center;
+    margin-left: 5%;
+}
+.container .page2 .one h1 span{
+    color: maroon;
+}
+.container .page2 .one img{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: -22%;
+}
+
+.container .page2  .qw{
+ width: 90%;
+ height: 60vh;
+ border: 2px solid;
+ position: absolute;
+ top: 42%;
+ margin-left: 5%;
+ text-align: right;
+ font-weight: 500;
+}
+
+.container .page2  .qw p{
+    font-size: 1.3em;
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    text-align: center;
+    margin-top: 5%;
+}
+.container .page2  .qw1{
+    width: 90%;
+    height: 50vh;
+    top: 10%;
+    margin-left: 5%;
+    position: absolute;
+    background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/about/about-4/thumb.jpg);
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.container .page2 .c{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    background-color: maroon;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top:35% ;
+    left: -45%;
+    border-radius: 50%;
+    color: snow;
+    z-index: 1;
+
+}
+.container .page2 .c p{
+    margin-top: 15%;
+}
+
+.container .fl1{
+    position: absolute;
+    width: 90%;
+    height: 15vh;
+    border: 1px solid gray;
+    margin-left: 5%;
+    top: 71.5%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.container .fl1 .f1{
+  width: 25%;
+  height: 15vh;
+  border-right: 1px solid gray;
+}
+.container .fl1 .f1 h4{
+  font-size: 2rem;
+}
+.container .fl1 .f1 p{
+   font-size: 1.3rem;
+}
+.container .fl1 .f2{
+    width: 25%;
+    height: 15vh;
+    border-right: 1px solid gray;  
+}
+.container .fl1 .f2 h4{
+    font-size: 2rem;
+  }
+  .container .fl1 .f2 p{
+     font-size: 1.3rem;
+  }
+.container .fl1 .f3{
+    width: 25%;
+    height: 15vh;
+    border-right: 1px solid gray;  
+}
+.container .fl1 .f3 h4{
+    font-size: 2rem;
+  }
+  .container .fl1 .f3 p{
+     font-size: 1.3rem;
+  }
+.container .fl1 .f4{
+    width: 25%;
+    height: 15vh; 
+}
+.container .fl1 .f4 h4{
+    font-size:2rem;
+  }
+  .container .fl1 .f4 p{
+     font-size: 1.3rem;
+  }
+
+
+  /* page3 */
+  .container .page3{
+    width: 100%;
+    height: 145vh;
+    position: relative;
+    font-family: var(--FONT);
+  }
+  .container .page3 .final{
+    width: 90%;
+    height: 140vh;
+    border: 1px solid gray;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+  }
+   
+  .container .page3 .final .g1{
+   width: 100%;
+   height: 80vh;
+   border-right: none ;
+   position: absolute;
+   top: 50%;
+  }
+
+  .container .page3 .final .g1 h4{
+    font-size: 1.5em;
+    top: -5%;
+    right: 15%;
+    position: absolute;
+    color: maroon;
+  }
+  .container .page3 .final .g1 h1{
+    font-size: 2em;
+    margin-top: 13%;
+    width: 90%;
+    right: 5%;
+   text-align: center;
+   position: absolute;
+  }
+  .container .page3 .final .g1 p{
+    font-size: 1.5em;
+    width: 90%;
+    position: absolute;
+    top: 25%;
+    margin-left: 5%;
+    text-align: center;
+    line-height: 150%;
+  }
+  .container .page3 .final .g1 .li1{
+    font-size: 1.2em;
+    margin-top: 80%;
+    right: 10%;
+    list-style: none;
+    position: absolute;
+    line-height: 200%;
+  }
+  .container .page3 .final .g1 .li1 span img{
+            width:20px ;
+            height: 20px;
+            margin-top: 9%;
+            position: absolute;
+  }
+  .container .page3 .final .g1 .za a {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: orange;
+    position: absolute;
+    top: 34%;
+    padding: 10px;
+    width: 60%;
+    left:20% ;
+    text-decoration: none;
+    color: black;
+  }
+  .container .page3 .final .g1 .za a:hover{
+    background-color: var(--BGCOLOR);
+  }
+  .container .page3 .final .g2{
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    
+  }
+  .container .page3 .final .g2 img{
+    width: 100%;
+    height: 60vh;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /* footer */
+
+    .container .page11 {
+        width: 100%;
+        height: 260vh;
+        position: relative;
+        font-family: var(--FONT);
+    }
+    .container .page11 .flex12{
+        width: 100%;
+        position: absolute;
+        margin-left: 0%;
+        height: 30vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-top: 5%;
+    
+    }
+    .container .page11 .flex12 .v1{
+        width: 95%;
+        height: 50vh;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/06.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v1:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v2{
+        width: 24%;
+        height: 20vh;
+        display: none;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/05.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* .container .page11 .flex12 .v2:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v3{
+        width: 24%;
+        height: 20vh;
+        display: none;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/04.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* .container .page11 .flex12 .v3:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v4{
+        width: 24%;
+        height: 20vh;
+        display: none;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/03.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v4:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v5{
+        width: 24%;
+        height: 30vh;
+        display: none;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/02.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v5:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .flex12 .v6{
+        width: 15.5%;
+        height: 30vh;
+        display: none;
+        background-image: url(https://html.hixstudio.net/Homie-prev/Homie-rtl/assets/img/instagram/01.jpg);
+        background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    /* .container .page11 .flex12 .v6:hover{
+        transform: rotate(360deg);
+        transition-duration: 0.5s;
+    } */
+    .container .page11 .footer{
+        width: 100%;
+        height: 210vh;
+        position: absolute;
+        background-color: rgba(11, 2, 13, 0.871);
+        top: 14%;
+        border: 2px solid;
+    }
+    /* b1 */
+    .container .page11 .footer .b1{
+        width: 90%;
+        height: 40vh;
+        position: absolute;
+        top:56%;
+        margin-left: 0%;
+        text-align: right;
+        font-family: var(--FONT);
+    }
+    .container .page11 .footer .b1 h4{
+         font-size: 2.2rem;
+         width: 75%;
+         margin-left: 25%;
+         color: snow;
+    }
+    .container .page11 .footer .b1 p{
+        font-size: 1.7rem;
+        margin-top: 2%;
+        color: gray;
+    }
+    .container .page11 .footer .b1 input{
+        padding: 15px;
+        width: 90%;
+        font-size: 1.7rem;
+        margin-top: 5%;
+    }
+    .container .page11 .footer .b1 a{
+        position: absolute;
+        text-decoration: none;
+        padding: 10px;
+        font-size: 1.7rem;
+        top: 66.5%;
+        background-color: maroon;
+        color: snow;
+        left: 67%;
+        width: 32%;
+        text-align: center;
+    }
+    .container .page11 .footer .b1 a:hover{
+        background-color: orangered;
+    }
+    .container .page11 .footer .flex13  {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 40%;
+        color: gray;
+        margin-top: 5%;
+        margin-left: 60%;
+        font-size: 1.7rem;
+    }
+/* b2 */
+     .container .page11 .footer .b2{
+        width: 90%;
+        height: 100vh;
+        position: absolute;
+        top: 22%;
+        margin-left: 0%;
+     }
+
+     .container .page11 .footer .b2 h2{
+        font-size: 2rem;
+        color: snow;
+        margin-top: 2%;
+        margin-left: 55%;
+     }
+
+     .container .page11 .footer .b2 ul{
+        position: absolute;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        height: 80%;
+    margin-top: 3%;
+    margin-left: 0%;
+    font-size: 1.5rem;
+    text-align: right;
+    list-style: none;
+     }
+     .container .page11 .footer .b2 ul li a{
+        text-decoration: none;
+        color: gray;
+     }
+     .container .page11 .footer .b2 ul li a:hover{
+        color: orangered;
+     }
+
+
+
+
+    /* b3 */
+
+    .container .page11 .footer .b3{
+        position: absolute;
+        width: 90%;
+        height: 40vh;
+        margin-top: 8%;
+        margin-left: 0%;
+        font-family: var(--FONT);
+        text-align: right;
+    }
+    .container .page11 .footer .b3 h3{
+        font-size: 3rem;
+
+    }
+    .container .page11 .footer .b3 h3 a{
+        text-decoration: none;
+        color: snow;
+    }
+    .container .page11 .footer .b3 h3 a:hover{
+        color: orangered;
+    }
+    .container .page11 .footer .b3 p{
+        font-size: 1.3rem;
+        margin-top: 5%;
+        
+    }
+    .container .page11 .footer .b3 p a{
+        text-decoration: none;
+        color: gray;
+    }
+    .container .page11 .footer .b3 p a:hover{
+        color: orangered;
+    }
+    .container .page11 .footer .b3 h2{
+        font-size: 1.4rem;
+        margin-top: 5%;
+        color: snow;
+    }
+
+    .container .page11 .footer .b3 .sa1{
+        font-size: 2.1rem;
+        margin-top: 5%;
+        
+    }
+    .container .page11 .footer .b3 .sa1 a{
+        text-decoration: none;
+        color: orange;
+    }
+    .container .page11 .footer .b3 .sa1 a:hover{
+        color: orangered;
+    }
+    .container .page11 .footer .b3 .sa2{
+        font-size: 1.6rem;
+        margin-top: 5%;
+        
+    }
+    .container .page11 .footer .b3 .sa2 a{
+        text-decoration: none;
+        color: snow;
+    }
+    .container .page11 .footer .b3 .sa2 a:hover{
+        color: orangered;
+    }
+
+/* last */
+.container .page11 .footer .last{
+    width: 90%;
+    height: 10vh;
+    position: absolute;
+    border-top: 2px solid;
+    margin-left: 5%;
+    bottom: 2%;
+    color: gray;
+}
+.container .page11 .footer .last a{
+    text-decoration: none;
+    color: snow;
+}
+.container .page11 .footer .last a:hover{
+    color: orangered;
+}
+.container .page11 .footer .last  p{
+    margin-top: 4%;
+    margin-left: 2%;
+    font-size: 1.2rem;
+    position: absolute;
+}
+
+.container .page11 .footer .last h4{
+    margin-top: 15%;
+    font-size: 1.4rem;
+    margin-left: 2%;
+    position: absolute;
+}
+}
