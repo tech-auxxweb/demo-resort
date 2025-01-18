@@ -2,8 +2,8 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const GITHUB_USERNAME = 'auxxweb'; // Replace with your GitHub username
-const REPOSITORY_NAME = 'resort-webistes'; // Replace with your repository name
+const GITHUB_USERNAME = 'tech-auxxweb'; // Replace with your GitHub username
+const REPOSITORY_NAME = 'demo-resort'; // Replace with your repository name
 const BASE_URL = `https://${GITHUB_USERNAME}.github.io/${REPOSITORY_NAME}/`;
 
 // Generate README content dynamically
